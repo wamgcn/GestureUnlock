@@ -1,0 +1,6 @@
+framework module Pods_GestureUnlock {
+  umbrella header "Pods-GestureUnlock-umbrella.h"
+
+  export *
+  module * { export * }
+}
