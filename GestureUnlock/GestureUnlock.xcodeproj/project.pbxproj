@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		165F7F84B5D531A8862C3FF4 /* Pods_GestureUnlock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A8B14D1D5F0D261E710A9C /* Pods_GestureUnlock.framework */; };
+		E954272B2578703F00D7648E /* FingerprintUnlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = E954272A2578703F00D7648E /* FingerprintUnlockView.m */; };
 		E9FF0BD42577459400E9BCBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FF0BD32577459400E9BCBA /* AppDelegate.m */; };
 		E9FF0BD72577459400E9BCBA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FF0BD62577459400E9BCBA /* SceneDelegate.m */; };
 		E9FF0BDA2577459400E9BCBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FF0BD92577459400E9BCBA /* ViewController.m */; };
@@ -41,6 +42,8 @@
 		1FA4D6FE15EC499C64940812 /* Pods-GestureUnlock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GestureUnlock.release.xcconfig"; path = "Target Support Files/Pods-GestureUnlock/Pods-GestureUnlock.release.xcconfig"; sourceTree = "<group>"; };
 		557884737C2BE2AC068542C6 /* Pods-GestureUnlock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GestureUnlock.debug.xcconfig"; path = "Target Support Files/Pods-GestureUnlock/Pods-GestureUnlock.debug.xcconfig"; sourceTree = "<group>"; };
 		A2A8B14D1D5F0D261E710A9C /* Pods_GestureUnlock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GestureUnlock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95427292578703F00D7648E /* FingerprintUnlockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingerprintUnlockView.h; sourceTree = "<group>"; };
+		E954272A2578703F00D7648E /* FingerprintUnlockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerprintUnlockView.m; sourceTree = "<group>"; };
 		E9FF0BCF2577459400E9BCBA /* GestureUnlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureUnlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FF0BD22577459400E9BCBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E9FF0BD32577459400E9BCBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 				E9FF0C0F257745D400E9BCBA /* PrefixHeader.pch */,
 				E9FF0C102577464A00E9BCBA /* GestureUnlockView.h */,
 				E9FF0C112577464A00E9BCBA /* GestureUnlockView.m */,
+				E95427292578703F00D7648E /* FingerprintUnlockView.h */,
+				E954272A2578703F00D7648E /* FingerprintUnlockView.m */,
 			);
 			path = GestureUnlock;
 			sourceTree = "<group>";
@@ -344,6 +349,7 @@
 				E9FF0BDA2577459400E9BCBA /* ViewController.m in Sources */,
 				E9FF0BD42577459400E9BCBA /* AppDelegate.m in Sources */,
 				E9FF0C122577464A00E9BCBA /* GestureUnlockView.m in Sources */,
+				E954272B2578703F00D7648E /* FingerprintUnlockView.m in Sources */,
 				E9FF0BE52577459500E9BCBA /* main.m in Sources */,
 				E9FF0BD72577459400E9BCBA /* SceneDelegate.m in Sources */,
 			);
@@ -519,6 +525,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86DN9ZV87K;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = GestureUnlock/PrefixHeader.pch;
 				INFOPLIST_FILE = GestureUnlock/Info.plist;
@@ -539,6 +546,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86DN9ZV87K;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = GestureUnlock/PrefixHeader.pch;
 				INFOPLIST_FILE = GestureUnlock/Info.plist;
